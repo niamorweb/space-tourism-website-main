@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <img className="logo" src="assets/images/shared/logo.svg" alt="" />
+        <img className="logo" src="space-tourism-website-main/assets/images/shared/logo.svg" alt="" />
         <ul className="tablet nav-big-screen">
           <NavLink activeClassName="active" to="/space-tourism-website-main/">
             <li className="subheading-second"> home</li>
