@@ -12,16 +12,16 @@ export default function Header() {
       <nav>
         <img className="logo" src="assets/images/shared/logo.svg" alt="" />
         <ul className="tablet nav-big-screen">
-          <NavLink activeClassName="active" to="/">
+          <NavLink activeClassName="active" to="/space-tourism-website-main/">
             <li className="subheading-second"> home</li>
           </NavLink>
-          <NavLink activeClassName="active" to="/destination">
+          <NavLink activeClassName="active" to="/space-tourism-website-main/destination">
             <li className="subheading-second">destination</li>
           </NavLink>
-          <NavLink activeClassName="active" to="/crew">
+          <NavLink activeClassName="active" to="/space-tourism-website-main/crew">
             <li className="subheading-second">crew</li>
           </NavLink>
-          <NavLink activeClassName="active" to="/technology">
+          <NavLink activeClassName="active" to="/space-tourism-website-main/technology">
             <li className="subheading-second">technology</li>
           </NavLink>
         </ul>

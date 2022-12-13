@@ -16,10 +16,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/crew" element={<Crew data={data}/>} />
-        <Route path="/destination" element={<Destination data={data}/>} />
-        <Route path="/technology" element={<Technology data={data} />} />
+        <Route path="/space-tourism-website-main/" element={<Home />} />
+        <Route path="/space-tourism-website-main/crew" element={<Crew data={data}/>} />
+        <Route path="/space-tourism-website-main/destination" element={<Destination data={data}/>} />
+        <Route path="/space-tourism-website-main/technology" element={<Technology data={data} />} />
       </Routes>
     </BrowserRouter>
   );
