@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    margin: auto;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Bellefair';
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-weight: lighter;
+
+}
+
+h2{
+    font-size: 24px;
+    color: $white;
+    font-family: 'Bellefair';
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+h3{
+    font-size: 20px;
+    color: $white;
+    font-family: 'Bellefair', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 16px;
+    color: $white;
+    font-family: 'Bellefair', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+h5{
+    font-size: 14px;
+    color: $white;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: $veryLightPurple;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+.subheading-first{
+    font-size: 28px;
+    color: $white;
+    text-transform: uppercase;
+    font-family: 'Bellefair';
+}
+
+
+.subheading-second{
+    font-size: 14px;
+    color: $white;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    letter-spacing: 2.35px;
+}
+
+nav{
+    font-size: 16px;
+    color: $white;
+    font-family: 'Barlow Condensed';
+    letter-spacing: 2.7px;
+}
+
+p{
+    font-size: 15px;
+    color: $white;
+    font-family: 'Barlow';
+    color: $veryLightPurple;
+    font-weight: lighter;
+    line-height: 23px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+.btn-home h4{
+    color: $black;
+}
+*.btn-home{
+    border: none;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.btn-home::before{
+    transition: 0.2s;
+}
+
+.btn-home:hover:before{
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    border: none;
+    text-transform: uppercase;
+    z-index: -5;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.316);
+    width: 200px;
+    height: 200px;
+}
+
+
+
+// ---------------- PAGES CREW 
+
+
+.menu-circles-crew{
+    width:200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .circles{
+        width: 10px;
+        height: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        background-color: $black;
+        border: $dark 2px solid;
+        text-align: center;
+    }
+
+    .circles:hover{
+        border: $white 2px solid;
+    }
+
+    .active{
+        background: $white !important;
+        border: none;
+        color: $black;
+    }
+}
+
+
+
+// ---------------- PAGES CREW 
+
+.menu-circles-technology{
+    width:200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: $black;
+
+    .circles{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        background-color: $black;
+        border: $dark 2px solid;
+        text-align: center;
+        color: $white;
+    }
+
+    .circles:hover{
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        background-color: $black;
+        border: $white 2px solid;
+        
+    }
+
+    .active{
+        background: $white !important;
+        border: none;
+        color: $black;
+    }
+
+}
+
+
+
+
+// ----------------- RESPONSIVE 
+// ----------------- RESPONSIVE 
+// ----------------- RESPONSIVE 
+// ----------------- RESPONSIVE 
+
+
+@media (min-width:768px) {
+    h1{
+        font-size: 150px;
+        font-family: 'Bellefair';
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-weight: lighter;
+    
+    }
+    
+    h2{
+        font-size: 40px;
+        color: $white;
+        font-family: 'Bellefair';
+        text-transform: uppercase;
+        font-weight: lighter;
+    
+    }
+    
+    h3{
+        font-size: 32px;
+        color: $white;
+        font-family: 'Bellefair', sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    
+    h4{
+        font-size: 20px;
+        color: $white;
+        font-family: 'Bellefair', sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+    
+    }
+    
+    h5{
+        font-size: 16px;
+        color: $white;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: $veryLightPurple;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    
+    
+    
+    .subheading-first{
+        font-size: 28px;
+        color: $white;
+        text-transform: uppercase;
+        font-family: 'Bellefair';
+    }
+    
+    
+    .subheading-second{
+        font-size: 14px;
+        color: $white;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed';
+        letter-spacing: 2.35px;
+    }
+    
+    nav{
+        font-size: 16px;
+        color: $white;
+        font-family: 'Barlow Condensed';
+        letter-spacing: 2.7px;
+    }
+    
+    p{
+        font-size: 16px;
+        color: $white;
+        font-family: 'Barlow';
+        color: $veryLightPurple;
+        font-weight: lighter;
+        line-height: 23px;
+    }
+    
+ 
+    
+
+    // ---------------- BUTTON HOME 
+
+
+    .btn-home{
+        width: 242px;
+        height: 242px;
+        position: relative;
+        z-index: 2;
+        transition: 0.2s;
+    }
+
+    .btn-home::before{
+        transition: 0.2s;
+    }
+
+    .btn-home:hover:before{
+        position: absolute;
+        content: '';
+        z-index: -5;
+        border-radius: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.316);
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    
+    // ---------------- BUTTON CREW 
+    
+    
+    .menu-circles-crew{
+        width:200px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+        .circles{
+            width: 10px;
+            height: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            background-color: $black;
+            border: $dark 2px solid;
+            text-align: center;
+        }
+    
+
+    }
+    
+    
+    
+    // ---------------- BUTTON CREW 
+    
+    .menu-circles-technology{
+        width:200px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+        .circles{
+            width: 40px;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            background-color: $black;
+            border: $dark 2px solid;
+            text-align: center;
+            color: $white;
+        }
+    
+  
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1100px) {
+    h1{
+        font-size: 150px;
+        font-family: 'Bellefair';
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-weight: lighter;
+    
+    }
+    
+    h2{
+        font-size: 56px;
+        color: $white;
+        font-family: 'Bellefair';
+        text-transform: uppercase;
+        font-weight: lighter;
+    
+    }
+    
+    h3{
+        font-size: 32px;
+        color: $white;
+        font-family: 'Bellefair', sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    
+    h4{
+        font-size: 28px;
+        color: $white;
+        font-family: 'Bellefair', sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+    
+    }
+    
+    h5{
+        font-size: 16px;
+        color: $white;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: $veryLightPurple;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    
+    
+    
+    .subheading-first{
+        font-size: 28px;
+        color: $white;
+        text-transform: uppercase;
+        font-family: 'Bellefair';
+    }
+    
+    
+    .subheading-second{
+        font-size: 14px;
+        color: $white;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed';
+        letter-spacing: 2.35px;
+    }
+    
+    nav{
+        font-size: 16px;
+        color: $white;
+        font-family: 'Barlow Condensed';
+        letter-spacing: 2.7px;
+    }
+    
+    p{
+        font-size: 18px;
+        color: $white;
+        font-family: 'Barlow';
+        color: $veryLightPurple;
+        font-weight: lighter;
+        line-height: 23px;
+    }
+    
+    
+    // ---------------- BUTTON HOME 
+    .btn-home{
+        width: 274px;
+        height: 274px;
+        position: relative;
+        z-index: 2;
+        transition: 0.2s;
+    }
+
+    .btn-home::before{
+        transition: 0.2s;
+    }
+
+    .btn-home:hover:before{
+        position: absolute;
+        content: '';
+        z-index: -5;
+        border-radius: 50%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.316);
+        width: 330px;
+        height: 330px;
+    }
+    
+    
+    
+    // ---------------- BUTTON CREW 
+    
+    
+    .menu-circles-crew{
+        width:200px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+        .circles{
+            width: 15px;
+            height: 15px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            background-color: $black;
+            border: $dark 2px solid;
+            text-align: center;
+        }
+    
+
+    }
+    
+    
+    
+    // ---------------- BUTTON CREW 
+    
+    .menu-circles-technology{
+        width:200px;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+        .circles{
+            width: 40px;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            background-color: $black;
+            border: $dark 2px solid;
+            text-align: center;
+            color: $white;
+        }
+    
+  
+    
+    }
+
+    
+}

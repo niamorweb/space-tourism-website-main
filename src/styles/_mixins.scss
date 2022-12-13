@@ -1,0 +1,45 @@
+@mixin centerAbsolute ($x:50%, $y:50%) {
+    position: absolute;
+    left: $x;
+    top: $y;
+    transform: translate($x, $y);
+}
+
+@mixin centerBlock {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@mixin centerBlock2 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+@mixin fontParameters($fontSize, $fontWeight, $color) {
+    font-size: $fontSize ;
+    font-weight: $fontWeight ;
+    color: $color ;
+}
+
+
+
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@mixin btnStyle ($borderRadius, $paddingTopBottom, $paddingLeftRight) {
+    border-radius: $borderRadius;
+    padding: $paddingTopBottom $paddingLeftRight;
+}

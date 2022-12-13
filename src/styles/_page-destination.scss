@@ -1,0 +1,171 @@
+.page-destination{
+    background: $black;
+
+
+    .destination-page-main-section{
+
+        #all-destinations-section{
+            max-width: 1440px;
+            width: 88%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        #all-destinations-section img{
+            width: 50%;
+            animation-name: animationDestinations;
+            animation-duration: 1s;
+            max-width: 350px;
+            max-height: 350px;
+            margin-top: 30px;
+
+        }
+
+        h2{
+            margin: 10px 0 20px 0;
+        }
+
+
+        hr{
+            margin: 70px auto;
+            height: 1px;
+
+        }
+
+
+        .container-title-description-travel-distance{
+            animation-name: animationDestinationsDisplay;
+            animation-duration: 3s;
+        }
+
+        .info-travel{
+            margin-bottom: 30px;
+        }
+
+        .info-travel h5{
+            margin-bottom: 7px;
+        }
+
+        .info-distance h5{
+            margin-bottom: 7px;
+        }
+
+
+        .subheading-second{
+            margin-bottom: 30px;
+        }
+
+        ul{
+            display: flex;
+            margin: 25px 0;
+            justify-content: center;
+        }
+
+        ul li{
+            margin: 0 15px;
+            padding: 10px 0;
+        }
+
+        ul li:hover{
+            border-bottom: rgba(255, 255, 255, 0.37) 2px solid;
+
+        }
+
+
+        .active{
+        border-bottom: #fff 2px solid;
+        }
+
+    }
+
+}
+
+    @keyframes animationDestinations {
+        0%{
+            width: 0;
+        }
+
+        100%{
+            width: 50%;
+        }
+
+        
+    }
+
+@keyframes animationDestinationsDisplay {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .page-destination{
+
+    
+        .info-travel-distance{
+            display: flex;
+            justify-content: center;
+        }
+
+        .info-travel{
+            margin: auto 50px;
+        }
+
+        .info-distance{
+            margin: auto 50px;
+        }
+
+        .pick-destination-title{
+            text-align: left;
+        }
+}
+    
+}
+
+
+
+@media (min-width:1000px) {
+    .page-destination{
+
+            
+            .img-and-all-text{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .all-text{
+            width: 50%;
+        }
+
+        .info-travel-distance{
+            display: flex;
+            justify-content: start;
+            
+        }
+
+        .info-travel{
+            width: 100%;
+            text-align: left;
+        }
+
+        .info-distance{
+            width: 100%;
+            text-align: left;
+
+        }
+    }
+}
