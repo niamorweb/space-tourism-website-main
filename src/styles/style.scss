@@ -1,17 +1,13 @@
 // imports fonts
 
-$dark: #979797;
-$black : #0B0D17;
-$veryLightPurple : #D0D6F9;
-$white:#fff;
 
 
+@import './general';
 @import '../components/header/header';
 @import '../pages/home/home';
 @import '../pages/crew/crew';
 @import '../pages/destination/destination';
 @import '../pages/technology/technology';
-@import './general';
 
 
 

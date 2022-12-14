@@ -2,6 +2,7 @@
   background: url(../../space-tourism-website-main/assets/images/technology/background-technology-mobile.jpg);
   background-size: 100%;
   position: relative;
+  padding-bottom: 50px;
 
   .content {
     text-align: center;
@@ -33,7 +34,6 @@
       transform: translateX(-50%);
       text-align: center;
       margin-top: 40px;
-      margin-bottom: 100px;
       animation-name: animationDestinationsOpacity;
       animation-duration: 2s;
     }

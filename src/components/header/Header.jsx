@@ -15,13 +15,22 @@ export default function Header() {
           <NavLink activeClassName="active" to="/space-tourism-website-main/">
             <li className="subheading-second"> home</li>
           </NavLink>
-          <NavLink activeClassName="active" to="/space-tourism-website-main/destination">
+          <NavLink
+            activeClassName="active"
+            to="/space-tourism-website-main/destination"
+          >
             <li className="subheading-second">destination</li>
           </NavLink>
-          <NavLink activeClassName="active" to="/space-tourism-website-main/crew">
+          <NavLink
+            activeClassName="active"
+            to="/space-tourism-website-main/crew"
+          >
             <li className="subheading-second">crew</li>
           </NavLink>
-          <NavLink activeClassName="active" to="/space-tourism-website-main/technology">
+          <NavLink
+            activeClassName="active"
+            to="/space-tourism-website-main/technology"
+          >
             <li className="subheading-second">technology</li>
           </NavLink>
         </ul>
@@ -47,16 +56,16 @@ export default function Header() {
         {showMobileNav ? (
           <div className="menu-mobile mobile">
             <ul>
-              <NavLink to="/">
+              <NavLink to="/space-tourism-website-main/">
                 <li className="subheading-second"> home</li>
               </NavLink>
-              <NavLink to="/destination">
+              <NavLink to="/space-tourism-website-main/destination">
                 <li className="subheading-second">destination</li>
               </NavLink>
-              <NavLink to="/crew">
+              <NavLink to="/space-tourism-website-main/crew">
                 <li className="subheading-second">crew</li>
               </NavLink>
-              <NavLink to="/technology">
+              <NavLink to="/space-tourism-website-main/technology">
                 <li className="subheading-second">technology</li>
               </NavLink>
             </ul>

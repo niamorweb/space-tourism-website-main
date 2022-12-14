@@ -1,12 +1,8 @@
 header {
   max-width: 1440px;
-  height: 200px;
-  margin-bottom: 0;
-  width: 100vw;
 
   nav {
-    padding-top: 40px;
-    padding-left: 20px;
+    padding: 20px 0 20px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,12 +35,14 @@ header {
     cursor: pointer;
     margin-top: 10px;
     margin-right: 20px;
+    width: 25px;
   }
 
   #open-menu-mobile {
     cursor: pointer;
     margin-right: 20px;
     margin-top: 10px;
+    width: 25px;
   }
 
   .menu-mobile {
@@ -64,6 +62,7 @@ header {
 
     ul li {
       margin: 15px auto;
+      text-align: left;
     }
   }
 }

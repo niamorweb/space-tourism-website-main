@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Header from "../../components/header/Header";
 
 export default function Home() {
@@ -17,9 +18,11 @@ export default function Home() {
               this world experience!
             </p>
           </div>
+          <NavLink to="/space-tourism-website-main/destination">
           <button className="btn-home">
             <h4> Explore</h4>
-          </button>
+            </button>
+          </NavLink>
         </section>
     </div>
     </>

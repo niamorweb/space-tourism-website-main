@@ -4,6 +4,12 @@
 
 
 
+$dark: #979797;
+$black : #0B0D17;
+$veryLightPurple : #D0D6F9;
+$white:#fff;
+
+
 *{
     text-decoration: none;
     box-sizing: border-box;
@@ -111,23 +117,19 @@ button{
 .btn-home h4{
     color: $black;
 }
-*.btn-home{
+.btn-home{
     border: none;
     width: 150px;
     border-radius: 50%;
     height: 150px;
     position: relative;
     z-index: 2;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .btn-home::before{
-    transition: 0.2s;
-}
-
-.btn-home:hover:before{
-    position: absolute;
     content: '';
+    transition: 0.5s;
     border-radius: 50%;
     border: none;
     text-transform: uppercase;
@@ -136,6 +138,13 @@ button{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.316);
+    position: absolute;
+    width: 0px;
+    height: 0px;
+}
+
+.btn-home:hover:before{
+    content: '';
     width: 200px;
     height: 200px;
 }

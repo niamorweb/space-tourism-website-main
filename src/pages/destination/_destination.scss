@@ -1,10 +1,7 @@
 #destination {
   background: $black;
   position: relative;
-  
-  a{
-    cursor: pointer;
-  }
+  padding-bottom: 50px;
 
   .content {
     max-width: 1440px;
@@ -12,65 +9,67 @@
     margin-left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    margin-bottom: 100px;
-  }
+    a {
+      cursor: pointer;
+    }
 
-  .content img {
-    width: 50%;
-    animation-name: animationDestinations;
-    animation-duration: 1s;
-    max-width: 350px;
-    max-height: 350px;
-    margin-top: 30px;
-  }
+    img {
+      width: 50%;
+      animation-name: animationDestinations;
+      animation-duration: 1s;
+      max-width: 350px;
+      max-height: 350px;
+      margin-top: 30px;
+    }
 
-  h2 {
-    margin: 10px 0 20px 0;
-  }
+    h2 {
+      margin: 10px 0 20px 0;
+    }
 
-  hr {
-    margin: 70px auto;
-    height: 1px;
-  }
+    hr {
+      margin: 70px auto;
+      height: 1px;
+    }
 
-  .container-title-description-travel-distance {
-    animation-name: animationDestinationsDisplay;
-    animation-duration: 3s;
-  }
+    .container-title-description-travel-distance {
+      animation-name: animationDestinationsDisplay;
+      animation-duration: 3s;
+    }
 
-  .info-travel {
-    margin-bottom: 30px;
-  }
+    .info-travel {
+      margin-bottom: 30px;
+    }
 
-  .info-travel h5 {
-    margin-bottom: 7px;
-  }
+    .info-travel h5 {
+      margin-bottom: 7px;
+    }
 
-  .info-distance h5 {
-    margin-bottom: 7px;
-  }
+    .info-distance h5 {
+      margin-bottom: 7px;
+    }
 
-  .subheading-second {
-    margin-bottom: 30px;
-  }
+    .subheading-second {
+      margin-bottom: 30px;
+    }
 
-  ul {
-    display: flex;
-    margin: 25px 0;
-    justify-content: center;
-  }
+    ul {
+      display: flex;
+      margin: 25px 0;
+      justify-content: center;
+    }
 
-  ul li {
-    margin: 0 15px;
-    padding: 10px 0;
-  }
+    ul li {
+      margin: 0 15px;
+      padding: 10px 0;
+    }
 
-  ul li:hover {
-    border-bottom: rgba(255, 255, 255, 0.37) 2px solid;
-  }
+    ul li:hover {
+      border-bottom: rgba(255, 255, 255, 0.37) 2px solid;
+    }
 
-  .active {
-    border-bottom: #fff 2px solid;
+    .active {
+      border-bottom: #fff 2px solid;
+    }
   }
 }
 
@@ -96,51 +95,55 @@
 
 @media (min-width: 768px) {
   #destination {
-    .info-travel-distance {
-      display: flex;
-      justify-content: center;
-    }
+    .content {
+      .info-travel-distance {
+        display: flex;
+        justify-content: center;
+      }
 
-    .info-travel {
-      margin: auto 50px;
-    }
+      .info-travel {
+        margin: auto 50px;
+      }
 
-    .info-distance {
-      margin: auto 50px;
-    }
+      .info-distance {
+        margin: auto 50px;
+      }
 
-    .pick-destination-title {
-      text-align: left;
+      .pick-destination-title {
+        text-align: left;
+      }
     }
   }
 }
 
 @media (min-width: 1000px) {
   #destination {
-    .img-and-all-text {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-    }
+    .content {
+      .img-and-all-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
 
-    .all-text {
-      width: 50%;
-    }
+      .all-text {
+        width: 50%;
+      }
 
-    .info-travel-distance {
-      display: flex;
-      justify-content: start;
-    }
+      .info-travel-distance {
+        display: flex;
+        justify-content: start;
+      }
 
-    .info-travel {
-      width: 100%;
-      text-align: left;
-    }
+      .info-travel {
+        width: 100%;
+        text-align: left;
+      }
 
-    .info-distance {
-      width: 100%;
-      text-align: left;
+      .info-distance {
+        width: 100%;
+        text-align: left;
+      }
     }
   }
 }
