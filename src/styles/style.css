@@ -431,7 +431,7 @@ header {
   max-width: 1440px;
 }
 header nav {
-  padding: 20px 0 20px 0;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -529,10 +529,10 @@ header .menu-mobile ul li {
   min-height: 100vh;
   text-align: center;
   position: relative;
-  padding: 0 30px 50px 30px;
 }
 #home .home-section-main {
   margin-top: 40px;
+  padding: 0 30px 50px 30px;
 }
 #home h1 {
   margin-bottom: 20px;
@@ -544,7 +544,7 @@ header .menu-mobile ul li {
   margin-bottom: 20px;
 }
 #home button {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 @media (min-width: 700px) {
