@@ -579,6 +579,7 @@ header .menu-mobile ul li {
   background-size: cover;
   position: relative;
   padding-bottom: 50px;
+  min-height: 100vh;
 }
 
 .container-crew {
@@ -737,6 +738,7 @@ header .menu-mobile ul li {
   background: #0B0D17;
   position: relative;
   padding-bottom: 50px;
+  min-height: 100vh;
 }
 #destination .content {
   max-width: 1440px;
@@ -866,6 +868,7 @@ header .menu-mobile ul li {
   background-size: 100%;
   position: relative;
   padding-bottom: 50px;
+  min-height: 100vh;
 }
 #technology .content {
   text-align: center;
