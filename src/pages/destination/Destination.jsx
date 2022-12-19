@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../../components/header/Header";
 
 export default function Destination({ data }) {
-  const [destination, setDestination] = useState("Mars");
+  const [destination, setDestination] = useState("Moon");
 
   const handleDestinationSelected = (e) => {
     setDestination(e);

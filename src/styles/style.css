@@ -580,6 +580,7 @@ header .menu-mobile ul li {
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .container-crew {
@@ -739,6 +740,7 @@ header .menu-mobile ul li {
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 #destination .content {
   max-width: 1440px;
@@ -869,6 +871,7 @@ header .menu-mobile ul li {
   position: relative;
   padding-bottom: 50px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 #technology .content {
   text-align: center;
