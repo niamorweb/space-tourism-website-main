@@ -69,7 +69,7 @@ header {
 
 @media (min-width: 768px) {
   header {
-    nav ul li:hover {
+    nav a:hover {
       border-bottom: 2px solid rgba(255, 255, 255, 0.73);
       transition: 0.2s;
     }
